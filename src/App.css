@@ -1,0 +1,60 @@
+.square {
+  background-color: #d9c6a5;
+    border: 1px solid #999;
+    float: left; 
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 80px;
+    line-height: 80px;
+    height: 80px;
+    display: inline-block;
+      text-decoration: none;
+      color: #d9adad;
+      font-weight: bold;
+      background-color: #c26565;
+      margin: 5px;
+      border: 1px solid #c26565;
+      
+      
+   }
+   
+   
+   /* Board */
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+    
+   }
+   /* Game */
+  .game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;  
+    background-color: #d9c6a5;
+    
+   }
+   /* Game Info */
+  ul {
+    padding-left: 15px;
+   }
+   .game-info {
+     color: #c26565;
+    margin-left: 20px;
+   }
+   .status {
+    margin-bottom: 10px;
+    
+   }
+   
+   .statuss {
+     padding-top: 10px;
+   }
